@@ -1,0 +1,62 @@
+/* Home.css */
+
+.home-container {
+  background-color: #333;
+  color: #fff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-placeholder {
+  background-color: #555;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.title-section h2 {
+  background: linear-gradient(to right, #8a2be2, #4b0082);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.service-button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #4b0082;
+  color: #fff;
+}
