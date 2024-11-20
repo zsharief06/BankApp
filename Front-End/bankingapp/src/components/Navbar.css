@@ -1,0 +1,76 @@
+/* Navbar Styles */
+.navbar-custom {
+    background: linear-gradient(90deg, #2c2c54, #341f97); /* Dark blue to dark purple */
+    color: #ffffff;
+    padding: 1.2rem 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 15px 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Brand Text Styling */
+  .brand-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-text:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Navigation Links */
+  .nav-links .nav-link {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links .nav-link:hover {
+    color: #ffcc00;
+    background-color: #341f97; /* Dark purple background */
+    border-radius: 8px;
+  }
+  
+  .nav-links .nav-item {
+    margin-left: 0.8rem;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    border: 1px solid #ffcc00;
+    background-color: transparent;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ffcc00;
+    color: #2c2c54;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .navbar-custom {
+      padding: 1rem;
+    }
+  
+    .brand-text {
+      font-size: 1.5rem;
+    }
+  
+    .nav-links .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .logout-btn {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,124 @@
+/* Form Container */
+form {
+    background: linear-gradient(135deg, #d8e3f0, #a5c1e1); /* Light blue gradient */
+    color: #2c2c54; /* Darker text for contrast */
+    padding: 50px;
+    margin: 60px auto;
+    max-width: 700px; /* Wider form */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #333333; /* Darker gray for modern feel */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4a4a4a; /* Neutral gray for labels */
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #8fa6c9; /* Soft blue border */
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333333; /* Darker text for input fields */
+    font-size: 1rem;
+  }
+  
+  input::placeholder {
+    color: #a0a0a0; /* Subtle placeholder text */
+  }
+  
+  input:focus {
+    border-color: #6d92e0; /* Brighter blue for focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(109, 146, 224, 0.5); /* Glow effect */
+  }
+  
+  /* Button */
+  button {
+    background: linear-gradient(to right, #6d92e0, #506bb5); /* Gradient blue */
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #506bb5, #334580); /* Darker hover effect */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Error and Success Messages */
+  p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333333; /* Neutral gray */
+  }
+  
+  p.error {
+    color: #d9534f; /* Red for errors */
+    font-weight: bold;
+  }
+  
+  p.success {
+    color: #5cb85c; /* Green for success */
+    font-weight: bold;
+  }
+  
+  /* Link to Sign Up / Login */
+  a {
+    color: #6d92e0; /* Soft blue links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    form {
+      padding: 40px;
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  

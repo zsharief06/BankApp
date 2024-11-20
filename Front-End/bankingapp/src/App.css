@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f3f8fd, #d8e9f6); /* Light gradient background */
+  min-height: 100vh; /* Ensures full height */
+  color: #333333; /* Darker text for contrast */
+  font-family: 'Arial', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: transparent; /* Removed the dark background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333; /* Neutral text color for better readability */
+}
+
+.App-link {
+  color: #6d92e0; /* Soft blue link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
